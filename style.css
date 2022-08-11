@@ -1,0 +1,105 @@
+:root {
+  --dark-blue: hsl(218, 44%, 22%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --light-gray: hsl(212, 45%, 89%);
+  --white: hsl(0, 0%, 100%);
+  --link: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url("/fonts/SpaceGrotesk-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url("/fonts/SpaceGrotesk-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  font-family: SpaceGrotesk;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--grayish-blue);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--dark-blue);
+}
+
+body {
+  margin: 0;
+  background-color: var(--light-gray);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  min-height: 100vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  float: none;
+  margin: auto;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* CARD */
+.card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  max-width: 320px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.card-text {
+  padding: 0.5rem;
+}
+
+/* ATTRIBUTION */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--link);
+}
+
+/* RESPONSIVE */
+@media (min-width: 370px) {
+  main {
+    padding: 1.75rem;
+  }
+
+  .card-text {
+    padding: 0.5rem 0.8rem;
+  }
+}
+
+/* MISC  */
+::selection {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
