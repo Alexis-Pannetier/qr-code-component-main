@@ -41,7 +41,6 @@ main {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-
   min-height: 100vh;
 }
 
@@ -79,11 +78,14 @@ footer {
 
 /* ATTRIBUTION */
 .attribution {
-  font-size: 11px;
+  font-family: roboto;
+  font-size: 0.75rem;
   text-align: center;
+  color: var(--dark-blue);
 }
 
 .attribution a {
+  font-size: 0.75rem;
   color: var(--link);
 }
 

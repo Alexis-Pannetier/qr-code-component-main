@@ -27,7 +27,7 @@ Mobile
 
 ### Links
 
-- Live Site URL: [démonstration](https://qrcode-component-main.netlify.app/)
+- Live Site URL: [Demonstration](https://pannetouch-qrcode.netlify.app)
 
 ## My process
 
